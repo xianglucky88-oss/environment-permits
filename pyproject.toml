@@ -1,0 +1,12 @@
+[project]
+name = "environment-permits"
+version = "0.1.0"
+description = "Environmental permits and enforcement document collection pipeline"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8.3,<9"]
+
+[project.scripts]
+environment-permits = "environment_permits.cli:main"
